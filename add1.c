@@ -1,17 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,d,e;
-    printf("Enter number");
-    scanf("%d",&a);
-    printf("Enter number");
-    scanf("%d",&b);
-    printf("Enter number");
-    scanf("%d",&c);
-    printf("Enter number");
-    scanf("%d",&d);
-    printf("Enter number");
-    scanf("%d",&e);
-    int z=a+b+c+d+e;
-    printf("%d",z);
+    int a[5],i,s=0;
+    printf("Enter 5 number");
+    for(i=0;i<5;i++)
+    {
+        scanf("%d",&a[i]);
+        s+=a[i];
+    }
+    printf("Sum of 5 number is %d",s);
 }
