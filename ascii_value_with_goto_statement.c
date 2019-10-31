@@ -9,7 +9,7 @@ int main()
         op++;
         goto start;
     }
-    
+   printf("\n"); 
 }
 // a-----> 97
 // b-----> 98
